@@ -72,7 +72,7 @@ public class App {
         }
     }
                                                           // была не правильная проверка на ошибку
-    public static void printSum(Integer a, Integer b) throws ArithmeticException {
+    public static void printSum(Integer a, Integer b) throws NullPointerException {
         System.out.println(a + b);
     }
 
