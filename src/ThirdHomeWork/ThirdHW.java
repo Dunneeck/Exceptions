@@ -98,8 +98,8 @@ public class ThirdHW {
                         System.out.println(e.getMessage());
                     }
                 }
-                System.out.println(res[i].getClass());
-            } catch (NullPointerException e) {
+                // System.out.println(res[i].getClass());
+            } catch (NullPointerException | IndexOutOfBoundsException e) {
                 System.out.println(e.getMessage());
             }
         }
